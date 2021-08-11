@@ -1,0 +1,90 @@
+body{
+  background-color: #282c33;
+  color: #fff;
+  direction: rtl;
+  font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+.messages{
+  display: flex;
+  justify-content: center;
+}
+
+.messages-container{
+  border: 1px solid #fff;
+  border-radius: 8px;
+  width: 450px;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.messages-container-form{
+  display:flex;
+  margin-top: 15px;
+}
+
+.messages-container-form input{
+  width: 100%;
+  padding: 7px;
+}
+
+.messages-container-top{
+  overflow: auto;
+}
+
+.message-row{
+  display: flex;
+  margin-top: 8px;
+}
+
+.same-person{
+  justify-content: flex-start;
+}
+
+.other-person{
+  justify-content: flex-end;
+}
+
+.other-person div{
+  background-color: #40ce40;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+}
+
+.same-person div{
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+}
+
+.user{
+  display: flex;
+  justify-content: center;
+}
+
+.user-container{
+  border: 1px solid #fff;
+  border-radius: 8px;
+  width: 450px;
+  padding: 15px;
+  box-sizing: border-box;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-container-form{
+  display:flex;
+}
+
+.user-container-form input{
+  width: 100%;
+  padding: 7px;
+}
